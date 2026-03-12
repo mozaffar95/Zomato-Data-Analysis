@@ -83,6 +83,16 @@ GROUP BY listed_in(type);
 
 SELECT AVG(cost_for_two) FROM zomato_data;
 
+--
+
+## Key Insights
+
+- Most restaurants fall within mid-range pricing.
+- Some restaurant types receive significantly more listings.
+- Ratings vary between different restaurant categories.
+
+--
+
 ##  Project Structure
 
 Zomato-Data-Analysis
