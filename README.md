@@ -83,8 +83,6 @@ GROUP BY listed_in(type);
 
 SELECT AVG(cost_for_two) FROM zomato_data;
 
---
-
 ##  Project Structure
 
 Zomato-Data-Analysis
