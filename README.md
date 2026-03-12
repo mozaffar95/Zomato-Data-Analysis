@@ -5,11 +5,11 @@
 This project focuses on cleaning and analyzing the Zomato restaurant dataset using SQL.
 The dataset was downloaded from Kaggle in CSV format and imported into MySQL for analysis.
 
-The main goal of this project is to perform **data cleaning and basic exploratory analysis** to understand restaurant ratings, costs, and restaurant categories.
+The main objective of this project is to perform **data cleaning and exploratory data analysis (EDA)** to understand restaurant ratings, pricing trends, and restaurant categories.
 
 ---
 
-## Dataset
+##  Dataset
 
 The dataset contains information about restaurants including:
 
@@ -21,13 +21,15 @@ The dataset contains information about restaurants including:
 * **Approx Cost (for two people)** → Average cost for two people
 * **Listed In (Type)** → Restaurant category/type
 
+Dataset Source: Kaggle
+
 ---
 
 ##  Tools Used
 
-* **MySQL** – Data cleaning and analysis
-* **CSV Dataset** – Data source
-* **GitHub** – Project documentation and version control
+* **MySQL** → Data cleaning and analysis
+* **CSV Dataset** → Data source
+* **GitHub** → Project documentation and version control
 
 ---
 
@@ -44,7 +46,7 @@ The following cleaning steps were performed using SQL:
 6. Converted cost column to **numeric format**
 7. Renamed column **approx_cost(for two people)** to **cost_for_two**
 
-These steps helped make the dataset ready for accurate analysis.
+These steps ensure the dataset is ready for accurate analysis.
 
 ---
 
@@ -61,37 +63,37 @@ To ensure data quality, the following checks were performed:
 
 ##  SQL Queries Used
 
-Some important SQL operations used in this project:
+Some important SQL operations used in this project include:
 
 * Checking table structure using `DESCRIBE`
 * Exploring dataset using `SELECT`
 * Cleaning rating column using `TRIM()` and `REPLACE()`
 * Converting rating values to numeric format
 * Cleaning cost column by removing commas
-* Checking NULL values in dataset
+* Checking NULL values in the dataset
 * Detecting duplicate records
 
 ---
 
-## Sample SQL Queries
+##  Sample SQL Queries
 
 SELECT MIN(rate), MAX(rate) FROM zomato_data;
 
-SELECT listed_in(type), COUNT(*)
+SELECT `listed_in(type)`, COUNT(*)
 FROM zomato_data
-GROUP BY listed_in(type);
+GROUP BY `listed_in(type)`;
 
 SELECT AVG(cost_for_two) FROM zomato_data;
 
---
+---
 
-## Key Insights
+##  Key Insights
 
-- Most restaurants fall within mid-range pricing.
-- Some restaurant types receive significantly more listings.
-- Ratings vary between different restaurant categories.
+* Most restaurants fall within **mid-range pricing**.
+* Some restaurant categories have **significantly more listings**.
+* Restaurant ratings vary across **different restaurant types**.
 
---
+---
 
 ##  Project Structure
 
@@ -104,17 +106,19 @@ Zomato-Data-Analysis
 
 ---
 
-##  Conclusion
+##  Future Improvements
 
-This project demonstrates how SQL can be used for **data cleaning and basic data analysis** on a real-world dataset.
-
-Proper data preparation is an essential step in the **data analysis process**, as it improves data quality and helps extract meaningful insights.
+* Add more SQL analysis queries
+* Create data visualizations using Python or Power BI
+* Perform deeper exploratory data analysis
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Mozaffar**
 
 GitHub Profile:
 https://github.com/mozaffar95
+
+Aspiring Data Analyst | Learning SQL, Python and Data Analysis
