@@ -73,6 +73,18 @@ Some important SQL operations used in this project:
 
 ---
 
+## Sample SQL Queries
+
+SELECT MIN(rate), MAX(rate) FROM zomato_data;
+
+SELECT listed_in(type), COUNT(*)
+FROM zomato_data
+GROUP BY listed_in(type);
+
+SELECT AVG(cost_for_two) FROM zomato_data;
+
+--
+
 ##  Project Structure
 
 Zomato-Data-Analysis
