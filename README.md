@@ -1,20 +1,20 @@
-#  Zomato Data Cleaning Project (SQL)
+#  Zomato Data Cleaning Project using SQL
 
 ##  Project Overview
 
 This project focuses on cleaning a raw Zomato restaurant dataset using SQL.
-The objective is to transform inconsistent and messy data into a clean, structured format suitable for analysis and reporting.
+The aim is to transform messy, inconsistent real-world data into a clean and structured format suitable for analysis, reporting, and visualization.
 
 ##  Problem Statement
 
-Real-world datasets often contain missing values, duplicates, inconsistent formats, and errors.
-This project demonstrates practical SQL skills to prepare such raw data for further analysis.
+Real-world datasets often contain missing values, duplicates, inconsistent formats, and incorrect entries.
+This project demonstrates practical SQL skills required to prepare raw data for meaningful analysis.
 
 ##  Tools & Technologies Used
 
 * SQL (MySQL)
 * GitHub
-* Zomato Restaurant Dataset
+* Kaggle Dataset
 
 ##  Dataset Description
 
@@ -28,6 +28,9 @@ The dataset contains information about restaurants, including:
 * Approximate Cost for Two People
 * Restaurant Type
 
+ **Dataset Source:** Kaggle — Zomato Restaurant Dataset
+ Public dataset used for academic and educational purposes only.
+
 ##  Data Cleaning Tasks Performed
 
  Removed duplicate records
@@ -39,7 +42,7 @@ The dataset contains information about restaurants, including:
 
 ##  Project Outcome
 
-After cleaning, the dataset is structured, consistent, and ready for advanced analysis, visualization, or machine learning applications.
+After cleaning, the dataset becomes structured, consistent, and ready for further data analysis, visualization, or machine learning applications.
 
 ##  Skills Demonstrated
 
@@ -51,20 +54,20 @@ After cleaning, the dataset is structured, consistent, and ready for advanced an
 
 ##  Repository Structure
 
-```
+```id="0r8hmf"
 Zomato-Data-Analysis/
 │
-├── zomato_data_cleaning.sql   # SQL script for data cleaning
-├── dataset.csv                # Raw dataset
+├── zomato_data_cleaning.sql   # SQL script for cleaning the dataset
+├── dataset.csv                # Raw dataset (from Kaggle)
 └── README.md                  # Project documentation
 ```
 
 ##  Why This Project Matters
 
 Data cleaning is one of the most critical steps in the data analysis pipeline.
-This project showcases practical skills required by data analysts in real-world scenarios.
+This project showcases practical skills that are highly demanded for Data Analyst roles.
 
-## 👨‍💻 Author
+##  Author
 
 **Mozaffar**
 
